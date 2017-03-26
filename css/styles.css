@@ -9,6 +9,7 @@ body,h1,h2,h3,h4,h5,h6 {
 
 .carousel-inner > .item {
   height: 50vh;
+  color:#e62727;
 }
 
 .carousel-inner > .item > img {
@@ -25,6 +26,14 @@ body,h1,h2,h3,h4,h5,h6 {
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
+  color:#FFF;
+  top:50%;
+}
+.carousel-caption{
+  bottom: -25px;
+}
+.carousel-indicators{
+  bottom: -50px;
 }
 a:link,a:active,a:visited{
   text-decoration:none;
