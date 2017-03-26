@@ -1,5 +1,5 @@
 //Function to scroll smoothly
-$(document).on('click', 'a', function(event){
+$(document).on('click', '#navDemo a, .w3-top a, footer a[href="#Main"]', function(event){
     event.preventDefault();
 
     $('html, body').animate({
