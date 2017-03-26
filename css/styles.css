@@ -35,7 +35,11 @@ body,h1,h2,h3,h4,h5,h6 {
 .carousel-indicators{
   bottom: -50px;
 }
-a:link,a:active,a:visited{
+#navDemo a:link, #navDemo a:active, #navDemo a:visited{
+  text-decoration:none;
+  color:white;
+}
+.w3-top a:link, .w3-top a:active, .w3-top a:visited{
   text-decoration:none;
   color:white;
 }
