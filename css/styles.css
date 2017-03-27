@@ -6,6 +6,9 @@ body,h1,h2,h3,h4,h5,h6 {
 .jb-box-shadow{
   box-shadow: 10px 5px 5px grey;
 }
+p{
+  text-indent:50px;
+}
 
 .carousel-inner > .item {
   height: 50vh;
